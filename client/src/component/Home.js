@@ -89,7 +89,7 @@ export default class Home extends Component {
     } catch (error) {
       // Catch any errors for any of the above operations.
       alert(
-        `Failed to load web3, accounts, or contract. Check console for details.`
+        `SERVER IS DOWN! ERROR!`
       );
       console.error(error);
     }
@@ -120,7 +120,7 @@ export default class Home extends Component {
       return (
         <>
           <Navbar />
-          <center></center>
+          <center>ERROR! SERVER IS DOWN</center>
         </>
       );
     }
